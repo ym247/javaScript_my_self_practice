@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIMPLE CALCII</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <h1><u>SIMPLE CALCULATOR</u></h1>
+    <br /><br />
+    <table border="3">
+        <tr>
+            <td id="titlestrip" colspan="4"><h4>-:CASIO CALCI:-</h4></td>
+        </tr>
+      <tr>
+        <td colspan="3"><input id="screen" type="text" /></td>
+        <td style="width:35px ;"><button onclick="clr()" style="background-color:red ;" class="oneright" value="C">CLR</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="disp('1')" class="threelefts" value="1">1</button></td>
+        <td><button onclick="disp('2')" class="threelefts" value="2">2</button></td>
+        <td><button onclick="disp('3')" class="threelefts" value="3">3</button ></td>
+        <td><button onclick="disp('/')" class="oneright" value="/">/</button></td>
+      </tr>
+    </tr>
+    <tr>
+      <td><button class="threelefts" value="4" onclick="disp('4')">4</button></td>
+      <td><button class="threelefts" value="5" onclick="disp('5')">5</button></td>
+      <td><button class="threelefts" value="6" onclick="disp('6')">6</button></td>
+      <td><button class="oneright" value="-" onclick="disp('-')" >-</button></td>
+    </tr></tr>
+    <tr>
+      <td><button class="threelefts" onclick="disp('7')" value="7">7</button></td>
+      <td><button class="threelefts" onclick="disp('8')" value="8">8</button></td>
+      <td><button class="threelefts" onclick="disp('9')" value="9">9</button></td>
+      <td><button class="oneright" onclick="disp('+')" value="+">+</button></td>
+    </tr>
+</tr>
+<tr>
+    <td><button class="threelefts" value="." onclick="disp('.')">.</button></td>
+    <td><button class="threelefts" value="0" onclick="disp('0')">0</button></td>
+    <td><button style="background-color:green ;" class="threelefts" value="=" onclick="equal()">=</button></td>
+    <td><button class="oneright" onclick="disp('*')" value="*">*</button></td>
+  </tr>
+</tr>
+    </table>
+    <script src="/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button.threelefts{
+width: 100%;
+background-color:grey;
+}
+button.oneright{
+    width: 100%;
+    background-color: blue;
+
+}
+button.threelefts, button.oneright{
+    border-radius: 5px;
+    border: 2px double silver;
+    text-align: center
+}
+#screen{
+background-color: cornflowerblue;    color: whitesmoke;
+}
+button{
+    font-size: larger;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blueviolet;
+    text-decoration: dotted;
+}
+#titlestrip{
+    background-color: silver;
+    color: rgb(87, 86, 86);
+    text-decoration: double;
+    text-align: center;
+}
+td.h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    margin-left: 40%;
+
+
+}
+h1{
+    margin-left: 35%;
+}
